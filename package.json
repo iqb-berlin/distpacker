@@ -1,0 +1,23 @@
+{
+  "name": "iqb-distpacker",
+  "version": "1.0.0",
+  "description": "pack and embedd all local-linked js and css files in the index.html file and embedd images as base64-encoding   ",
+  "bin": {
+    "iqb-distpacker": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist2pack": "node cli.js"
+  },
+  "keywords": [
+    "iqb",
+    "inline",
+    "assets",
+    "packer"
+  ],
+  "author": "Andreas Fleck",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

@@ -103,7 +103,7 @@ var folder = args[2];
 if (!folder.endsWith(folderseperator)) {
     folder = folder + folderseperator;
 }
-console.log("run iqb_dist2indexpack in " + folder);
+console.log("run iqb-distpacker in " + folder);
 
 if (!existsSync(folder + 'index.html')) {
     throw 'no index.html found in ' + folder;

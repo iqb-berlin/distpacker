@@ -1,6 +1,6 @@
 {
   "name": "iqb-distpacker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pack and embedd all local-linked js and css files in the index.html file and embedd images as base64-encoding   ",
   "repository": {
     "type": "git",

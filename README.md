@@ -11,7 +11,7 @@ edit your package.json and add in scripts
 }
 ```
 now, the script will run automatically by "npm run build" or in visual studio code run script 
-```
+
 or manually 
 ```
 node node_modules/.bin/iqb-distpacker ./dist/YourPackageName
